@@ -1,0 +1,23 @@
+Nouns:
+	Player
+	Ship
+	Region
+	Good
+	Weapon
+	Shield
+	Skill
+	Price
+	Credits
+	
+Game Objects:
+	Player
+	Ship
+	Good
+	Weapon
+	Shield
+	Skill
+	
+Attributes:
+	Price
+	Credits
+	region

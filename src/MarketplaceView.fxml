@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MarketplaceViewController">
+  <tabs>
+    <Tab text="Buy Goods">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox layoutX="112.0" layoutY="76.0" prefHeight="369.6" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="334.4" prefWidth="600.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label fx:id="lblNumWater1" text="Label" />
+                                    <Label fx:id="lblNumFur1" layoutX="43.0" layoutY="168.0" text="Label" />
+                                    <Label fx:id="lblNumFood1" layoutX="43.0" layoutY="177.0" text="Label" />
+                                    <Label fx:id="lblNumOre1" layoutX="43.0" layoutY="186.0" text="Label" />
+                                    <Label fx:id="lblNumGames1" layoutX="43.0" layoutY="195.0" text="Label" />
+                                    <Label fx:id="lblNumFirearms1" layoutX="43.0" layoutY="204.0" text="Label" />
+                                    <Label fx:id="lblNumMedicine1" layoutX="43.0" layoutY="212.0" text="Label" />
+                                    <Label fx:id="lblNumMachines1" layoutX="43.0" layoutY="221.0" text="Label" />
+                                    <Label fx:id="lblNumNarcotics1" layoutX="43.0" layoutY="230.0" text="Label" />
+                                    <Label fx:id="lblNumRobots1" layoutX="43.0" layoutY="239.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label text="Water" />
+                                    <Label layoutX="43.0" layoutY="168.0" text="Furs" />
+                                    <Label layoutX="43.0" layoutY="177.0" text="Food" />
+                                    <Label layoutX="43.0" layoutY="186.0" text="Ore" />
+                                    <Label layoutX="43.0" layoutY="195.0" text="Games" />
+                                    <Label layoutX="43.0" layoutY="204.0" text="Firearms" />
+                                    <Label layoutX="43.0" layoutY="212.0" text="Medicine" />
+                                    <Label layoutX="43.0" layoutY="221.0" text="Machines" />
+                                    <Label layoutX="43.0" layoutY="230.0" text="Narcotics" />
+                                    <Label layoutX="43.0" layoutY="239.0" text="Robots" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="7.0">
+                                 <children>
+                                    <Button fx:id="btnBuyWater" mnemonicParsing="false" onAction="#handleBuyWater" text="Buy" />
+                                    <Button fx:id="btnBuyFur" layoutX="42.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleBuyFurs" text="Buy" />
+                                    <Button fx:id="btnBuyFood" layoutX="42.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleBuyFood" text="Buy" />
+                                    <Button fx:id="btnBuyOre" layoutX="42.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBuyOre" text="Buy" />
+                                    <Button fx:id="btnBuyGames" layoutX="42.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleBuyGames" text="Buy" />
+                                    <Button fx:id="btnBuyFirearms" layoutX="42.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleBuyFirearms" text="Buy" />
+                                    <Button fx:id="btnBuyMedicine" layoutX="42.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleBuyMedicine" text="Buy" />
+                                    <Button fx:id="btnBuyMachines" layoutX="42.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleBuyMachines" text="Buy" />
+                                    <Button fx:id="btnBuyNarcotics" layoutX="42.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleBuyNarcotics" text="Buy" />
+                                    <Button fx:id="btnBuyRobots" layoutX="42.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleBuyRobots" text="Buy" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label fx:id="lblBuyWaterPrice" text="Label" />
+                                    <Label fx:id="lblBuyFurPrice" layoutX="43.0" layoutY="168.0" text="Label" />
+                                    <Label fx:id="lblBuyFoodPrice" layoutX="43.0" layoutY="177.0" text="Label" />
+                                    <Label fx:id="lblBuyOrePrice" layoutX="43.0" layoutY="186.0" text="Label" />
+                                    <Label fx:id="lblBuyGamesPrice" layoutX="43.0" layoutY="195.0" text="Label" />
+                                    <Label fx:id="lblBuyFirearmsPrice" layoutX="43.0" layoutY="204.0" text="Label" />
+                                    <Label fx:id="lblBuyMedicinePrice" layoutX="43.0" layoutY="212.0" text="Label" />
+                                    <Label fx:id="lblBuyMachinesPrice" layoutX="43.0" layoutY="221.0" text="Label" />
+                                    <Label fx:id="lblBuyNarcoticsPrice" layoutX="43.0" layoutY="230.0" text="Label" />
+                                    <Label fx:id="lblBuyRobotsPrice" layoutX="43.0" layoutY="239.0" text="Label" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="35.2" prefWidth="200.0" spacing="150.0">
+                           <children>
+                              <Label fx:id="lblInventory1" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" onAction="#handleBack" prefHeight="26.0" prefWidth="59.0" text="Back" />
+                              <Label fx:id="lblCredits1" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Sell Goods">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="156.0" layoutY="47.0" prefHeight="369.6" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="334.4" prefWidth="600.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label fx:id="lblNumWater2" text="Label" />
+                                    <Label fx:id="lblNumFur2" layoutX="43.0" layoutY="168.0" text="Label" />
+                                    <Label fx:id="lblNumFood2" layoutX="43.0" layoutY="177.0" text="Label" />
+                                    <Label fx:id="lblNumOre2" layoutX="43.0" layoutY="186.0" text="Label" />
+                                    <Label fx:id="lblNumGames2" layoutX="43.0" layoutY="195.0" text="Label" />
+                                    <Label fx:id="lblNumFirearms2" layoutX="43.0" layoutY="204.0" text="Label" />
+                                    <Label fx:id="lblNumMedicine2" layoutX="43.0" layoutY="212.0" text="Label" />
+                                    <Label fx:id="lblNumMachines2" layoutX="43.0" layoutY="221.0" text="Label" />
+                                    <Label fx:id="lblNumNarcotics2" layoutX="43.0" layoutY="230.0" text="Label" />
+                                    <Label fx:id="lblNumRobots2" layoutX="43.0" layoutY="239.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label text="Water" />
+                                    <Label layoutX="43.0" layoutY="168.0" text="Furs" />
+                                    <Label layoutX="43.0" layoutY="177.0" text="Food" />
+                                    <Label layoutX="43.0" layoutY="186.0" text="Ore" />
+                                    <Label layoutX="43.0" layoutY="195.0" text="Games" />
+                                    <Label layoutX="43.0" layoutY="204.0" text="Firearms" />
+                                    <Label layoutX="43.0" layoutY="212.0" text="Medicine" />
+                                    <Label layoutX="43.0" layoutY="221.0" text="Machines" />
+                                    <Label layoutX="43.0" layoutY="230.0" text="Narcotics" />
+                                    <Label layoutX="43.0" layoutY="239.0" text="Robots" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="7.0">
+                                 <children>
+                                    <Button fx:id="btnSellWater" mnemonicParsing="false" onAction="#handleSellWater" text="Sell" />
+                                    <Button fx:id="btnSellFur" layoutX="43.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleSellFurs" text="Sell" />
+                                    <Button fx:id="btnSellFood" layoutX="43.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleSellFood" text="Sell" />
+                                    <Button fx:id="btnSellOre" layoutX="43.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleSellOre" text="Sell" />
+                                    <Button fx:id="btnSellGames" layoutX="43.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleSellGames" text="Sell" />
+                                    <Button fx:id="btnSellFirearms" layoutX="43.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleSellFirearms" text="Sell" />
+                                    <Button fx:id="btnSellMedicine" layoutX="43.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleSellMedicine" text="Sell" />
+                                    <Button fx:id="btnSellMachines" layoutX="43.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleSellMachines" text="Sell" />
+                                    <Button fx:id="btnSellNarcotics" layoutX="43.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleSellNarcotics" text="Sell" />
+                                    <Button fx:id="btnSellRobots" layoutX="43.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleSellRobots" text="Sell" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                                 <children>
+                                    <Label fx:id="lblSellWaterPrice" text="Label" />
+                                    <Label fx:id="lblSellFurPrice" layoutX="43.0" layoutY="168.0" text="Label" />
+                                    <Label fx:id="lblSellFoodPrice" layoutX="43.0" layoutY="177.0" text="Label" />
+                                    <Label fx:id="lblSellOrePrice" layoutX="43.0" layoutY="186.0" text="Label" />
+                                    <Label fx:id="lblSellGamesPrice" layoutX="43.0" layoutY="195.0" text="Label" />
+                                    <Label fx:id="lblSellFirearmsPrice" layoutX="43.0" layoutY="204.0" text="Label" />
+                                    <Label fx:id="lblSellMedicinePrice" layoutX="43.0" layoutY="212.0" text="Label" />
+                                    <Label fx:id="lblSellMachinesPrice" layoutX="43.0" layoutY="221.0" text="Label" />
+                                    <Label fx:id="lblSellNarcoticsPrice" layoutX="43.0" layoutY="230.0" text="Label" />
+                                    <Label fx:id="lblSellRobotsPrice" layoutX="43.0" layoutY="239.0" text="Label" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="35.2" prefWidth="200.0" spacing="150.0">
+                           <children>
+                              <Label fx:id="lblInventory2" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" onAction="#handleBack" prefHeight="26.0" prefWidth="59.0" text="Back" />
+                              <Label fx:id="lblCredits2" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Shipyard">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox prefHeight="334.4" prefWidth="600.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0" spacing="15.0">
+                                 <children>
+                                    <Label text="Fuel" underline="true" />
+                                    <Label fx:id="lblFuelRemain" text="Fuel Remaining:" />
+                                    <Label fx:id="lblFuelCost" text="Cost:" />
+                                    <Button fx:id="btnRefuel" mnemonicParsing="false" onAction="#handleRefuelShip" text="Refuel Ship" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0" spacing="15.0">
+                                 <children>
+                                    <Label text="Repair" underline="true" />
+                                    <Label fx:id="lblHealthRemain" text="Health Remaining: " />
+                                    <Label fx:id="lblRepairCost" text="Cost:" />
+                                    <Button fx:id="btnRepair" mnemonicParsing="false" onAction="#handleRepairShip" text="Repair Ship" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="35.2" prefWidth="200.0" spacing="150.0">
+                           <children>
+                              <Label fx:id="lblInventory3" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" onAction="#handleBack" prefHeight="26.0" prefWidth="59.0" text="Back" />
+                              <Label fx:id="lblCredits3" alignment="CENTER" prefHeight="18.0" prefWidth="146.0" text="Label" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab fx:id="tabWin" text="Win Item">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="250.0" layoutY="86.0" prefHeight="371.0" prefWidth="600.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label text="The Tech 'T'" underline="true">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label text="Cost: 10,000 cr." />
+                        <Button fx:id="btnBuyWin" mnemonicParsing="false" onAction="#handleBuyWinItem" text="Buy" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayPlayerController">
+   <children>
+      <Label text="Character Sheet">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator prefWidth="200.0" />
+      <Label text="Name" underline="true" />
+      <Label fx:id="lblName" text="Label">
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
+      </Label>
+      <Label text="Difficulty" underline="true" />
+      <Label fx:id="lblDiff" text="Label">
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
+      </Label>
+      <Label text="Skill Points" underline="true" />
+      <Separator prefWidth="200.0">
+         <VBox.margin>
+            <Insets bottom="-2.0" />
+         </VBox.margin>
+      </Separator>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Separator>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Pilot" underline="true" />
+                  <Label fx:id="lblPilot" text="Label" />
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Separator>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Fighter" underline="true" />
+                  <Label fx:id="lblFight" text="Label" />
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Separator>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Merchant" underline="true" />
+                  <Label fx:id="lblMerch" text="Label" />
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Separator>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Engineer" underline="true" />
+                  <Label fx:id="lblEngin" text="Label" />
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <padding>
+                  <Insets left="2.0" />
+               </padding>
+            </Separator>
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" />
+      <Label text="Credits" underline="true">
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="lblCredits" text="Label" />
+      <Separator prefHeight="26.0" prefWidth="640.0" />
+      <Button mnemonicParsing="false" onAction="#handleBeginGame" text="Begin" />
+   </children>
+</VBox>

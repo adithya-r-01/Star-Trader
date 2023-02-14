@@ -1,0 +1,24 @@
+
+.idea
+Star-Trader-Remake.iml
+Star-Trader-Remake1.iml
+out/production/Star-Trader-Remake1/RootLayoutController.class
+out/production/Star-Trader-Remake1/RootLayout.fxml
+out/production/Star-Trader-Remake1/Player.class
+out/production/Star-Trader-Remake1/Main.class
+out/production/Star-Trader-Remake1/Game.class
+out/production/Star-Trader-Remake1/DisplayPlayerLayout.fxml
+out/production/Star-Trader-Remake1/DisplayPlayerController.class
+out/production/Star-Trader-Remake1/Difficulty.class
+out/production/Star-Trader-Remake1/CreateCharacterScreen.fxml
+out/production/Star-Trader-Remake1/CreateCharacterController.class
+*.class
+checkstyle-8.24-all.jar
+out/production/Star-Trader-Remake1/META-INF/Star-Trader-Remake1.kotlin_module
+out/production/Star-Trader-Remake1/RegionMap.fxml
+/out/production/CS 2340 Project/META-INF/CS 2340 Project.kotlin_module
+out/production/Star-Trader-Remake1/RegionTravelPage.fxml
+out/production/Star-Trader-Remake1/media/NazcaFULL.mp3
+out
+
+out/production/CS 2340 Project/RegionView.fxml

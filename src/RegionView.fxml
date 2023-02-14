@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegionViewController">
+   <children>
+      <VBox alignment="CENTER" layoutX="-2.0" layoutY="1.0">
+         <children>
+            <VBox fx:id="RegionView" alignment="CENTER" prefHeight="55.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="lblRegionName" text="Label">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="314.0" prefWidth="600.0">
+               <children>
+                  <VBox prefHeight="332.0" prefWidth="294.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Description:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblRegionDescription" alignment="CENTER" prefHeight="17.0" prefWidth="301.0" text="Label" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Technology Level:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblRegionTechLevel" alignment="CENTER" prefHeight="17.0" prefWidth="307.0" text="Label" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Coordinates:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblRegionCoordinates" alignment="CENTER" prefHeight="17.0" prefWidth="301.0" text="Label" />
+                     </children>
+                  </VBox>
+                  <Separator halignment="RIGHT" orientation="VERTICAL" prefHeight="314.0" prefWidth="0.0" />
+                  <VBox alignment="TOP_CENTER" prefWidth="294.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Ship Health:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblHealth" alignment="CENTER" prefHeight="17.0" prefWidth="301.0" text="Label" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Ship Fuel:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblFuel" alignment="CENTER" prefHeight="17.0" prefWidth="301.0" text="Label" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="75.0" prefWidth="300.0" text="Inventory:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblInventory" alignment="CENTER" prefHeight="17.0" prefWidth="301.0" text="Label" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <Hyperlink alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" onAction="#handleMarketplace" prefHeight="23.2" prefWidth="300.0" text="Marketplace" textAlignment="CENTER" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

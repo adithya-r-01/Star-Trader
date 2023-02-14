@@ -1,0 +1,14 @@
+#1:
+    As a Player, I want to be able to visit different regions so that I stay entertained.
+    
+#2:
+    As a User, I want to be able to view the different regions on a map so that navigation is easy.
+
+#3:
+    As a User, I want to be able to view the marketplace of regions so that I can interact with their economy. 
+    
+#4:
+    As a User, I want to be able to see my previously visited regions so that I can easily travel back to them.
+    
+#5:
+    As a User, I want the universe to generate randomly so that I can have a new game experience every time. 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameOverScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="400.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="87.0" prefHeight="189.0" prefWidth="549.0" text="Oh No! Your Ships Health Reached Zero." textFill="WHITE" fx:id="text1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>
