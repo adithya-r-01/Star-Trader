@@ -7,7 +7,7 @@
 - [Dependencies & Acknowledgements](https://github.com/adithya-r-01/star-trader/tree/main?tab=readme-ov-file#dependencies-&-acknowledgements)
 - [Getting Started](https://github.com/adithya-r-01/star-trader/tree/main?tab=readme-ov-file#getting-started)
 
-### Dependencies & Acknowledgements
+## Dependencies & Acknowledgements
 
  This game is built off the stack of `Java` & `JavaFX 11`. All music in this game is courtesy of [hooksounds](https://www.hooksounds.com/). 
 
