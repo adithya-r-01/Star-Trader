@@ -1,12 +1,17 @@
-# Star Trader Remake
+<h1 align="center" style="border-bottom: none">
+    <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading-image.svg"></a><br>Star Trader Remake
+</h1>
 
-Remake of Star Trader game for _CS2340_, this game is a decision based game where you are a wandering traveler that must make decisions about resources, companions, and beyond in order to keep your Star Trader alive!
+> Remake of Star Trader game for _CS2340_, this game is a decision based game where you are a wandering traveler that must make decisions about resources, companions, and beyond in order to keep your Star Trader alive!
 
-### Dependencies and Acknowledgements
+- [Dependencies & Acknowledgements](https://github.com/adithya-r-01/star-trader/tree/main?tab=readme-ov-file#dependencies-&-acknowledgements)
+- [Getting Started](https://github.com/adithya-r-01/star-trader/tree/main?tab=readme-ov-file#getting-started)
+
+### Dependencies & Acknowledgements
 
  This game is built off the stack of `Java` & `JavaFX 11`. All music in this game is courtesy of [hooksounds](https://www.hooksounds.com/). 
 
-### Setup
+## Getting Started
 
 To run the JavaFX application, follow these steps:
 
