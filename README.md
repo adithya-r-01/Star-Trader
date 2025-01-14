@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: none">
-    <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading-image.svg"></a><br>Star Trader Remake
+    <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading-img.svg"></a><br>Star Trader Remake
 </h1>
 
 > Remake of Star Trader game for _CS2340_, this game is a decision based game where you are a wandering traveler that must make decisions about resources, companions, and beyond in order to keep your Star Trader alive!
